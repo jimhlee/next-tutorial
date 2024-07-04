@@ -14,11 +14,11 @@ export default function TopNav() {
             ]
         }}
     >
-        <NavbarBrand>
-            <GiMatchTip size={40} />
+        <NavbarBrand as={Link} href={'/'}>
+            <GiMatchTip className='text-gray-300' size={40} />
             <div className='font-bold text-3xl flex'>
-                <span>Next</span>
-                <span>Match</span>
+                <span className='text-gray-800'>Next</span>
+                <span className='text-gray-300'>Match</span>
             </div>
         </NavbarBrand>
         <NavbarContent justify='center'>
