@@ -41,4 +41,5 @@ model User {
   emailVerified DateTime?
   image         String?
   accounts      Account[]
+  passwordHash  String
 }
